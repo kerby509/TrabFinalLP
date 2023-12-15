@@ -35,3 +35,41 @@ data Expr = BTrue
           | Paren Expr
           | Eq Expr Expr
           deriving (Show, Eq)
+
+
+data Token = TokenTrue 
+           | TokenFalse 
+           | TokenNum Int 
+           | TokenAdd 
+           | TokenSubs
+           | TokenMul
+           | TokenDiv
+           | TokenOr
+           | TokenMaiores
+           | TokenMaior
+           | TokenNot
+           | TokenAnd
+           | TokenIf 
+           | TokenThen
+           | TokenElse 
+           | TokenVar String 
+           | TokenLam
+           | TokenLet
+           | TokenIgual
+           | TokenIn
+           | TokenLColchetes 
+           | TokenRColchetes
+           | TokenLPair
+           | TokenPrimeiro
+           | TokenSegundo
+           | TokenRPair
+           | TokenVirgulas
+           | TokenProjection
+           | TokenColon
+           | TokenArrow 
+           | TokenLParen
+           | TokenRParen
+           | TokenBoolean
+           | TokenNumber
+           | TokenEq
+           deriving Show 
