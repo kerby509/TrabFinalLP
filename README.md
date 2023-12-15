@@ -1,2 +1,2 @@
 # TrabFinalLP
-Trabalho final de ligugens de programação
+Trabalho final de liguagens de programação
