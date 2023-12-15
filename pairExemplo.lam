@@ -1,0 +1,4 @@
+(\x:Number -> if x == 1
+    then e1 (1,2)
+    else e2 (2,3)
+) 1
