@@ -133,7 +133,16 @@ step (Eq e1 e2) | isvalue e1 && isvalue e2 = if (e1 == e2) then
                                 Just e1' -> Just (Eq e1' e2)
                                 _        -> Nothing 
       
+--Operador de Composição
 
+dobro :: Int -> Int
+dobro x = x * 2
+
+quadrado :: Int -> Int
+quadrado x = x ^ 2
+
+dobroEQuadrado :: Int -> Int
+dobroEQuadrado = dobro . quadrado
 
 
 step e = Just e 
