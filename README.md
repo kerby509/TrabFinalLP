@@ -6,6 +6,6 @@
 Expansão Funcional do Interpretador do Lambda Cálculo: Adição e Demonstrações de Novas Funcionalidades à Linguagem de Programação.
 
 
-[Video da apresentação](https://youtu.be/hhL7u-6eAes
+[link da apresentação](https://youtu.be/hhL7u-6eAes
 )
 
